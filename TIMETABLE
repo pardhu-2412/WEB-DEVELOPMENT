@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align:center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+</style>
+<body>
+    <h1>HTML TimeTable Example</h1>
+    <h2>TimeTable</h2>
+    <table style="width:100%">
+        <tr>
+            <th>Day/Time</th>
+            <th>9:00am to 10:00am</th>
+            <th>10:00am to 11:00am</th>
+            <th>11:00am to 12:00pm</th>
+            <th>12:00pm to 1:00pm</th>
+            <th>1:00pm to 2:00pm</th>
+            <th>2:00pm to 3:00pm</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>P&S</td>
+            <td rowspan="2">Physics</td>
+            <td>SE</td>
+            <td rowspan="3" colspan="2">Lunch Break</td>
+            <td>ADSAA</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>DT</td>
+            <td>MEFA</td>
+            <td>COMPUTER SCIENCE</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2">FSD Lab</td>
+            <td>SE</td>
+            <td>DT</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>OS</td>
+            <td>CRT</td>
+            <td rowspan="2">SE</td>
+            <td>FSD</td>
+            <td>MEFA</td>
+            <td>DT</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>COMPUTER SCIENCE</td>
+            <td>OS Lab</td>
+            <td>ADSAA</td>
+            <td>CRT</td>
+        </tr>
+    </table>
+</body>
+</html>
