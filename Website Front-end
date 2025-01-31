@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website.com</title>
+</head>
+<style>
+  header{
+    background-color: khaki;
+    text-align: center;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  nav{
+    background-color: antiquewhite;
+    text-align:center;
+    word-spacing: 20px;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  article{
+    float:right;
+    background-color: blanchedalmond;
+    padding-bottom: 120px;
+    padding-top:10px;
+    padding-left: 5px;
+    width: 40%;
+    margin: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  div{
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 5px;
+    width: 55%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  footer{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+</style>
+<body>
+  <header><h1>Welcome to Swiggy</h1></header>
+  <nav>
+    <a href="https://www.swiggy.com/">Home</a>
+    <a href="https://www.swiggy.com/corporate/">About</a>
+    <a href="https://www.swiggy.com/swiggy-genie">Services</a>
+    <a href="https://www.swiggy.com/corporate/contact-us/">Contact</a>
+  </nav>
+  <article>
+    <h1>Latest news</h1>
+    <ul>
+    <li>Our Website will provide tremondous offers on Feb 14</li>
+    <li>Provides free delivary on first order</li>
+    <li>30% Off on Desserts</li>
+    </ul>
+  </article>
+  <div>
+    <h1>About Us</h1>
+    <p>Welcome to our Website!We are dedicated to providing the best service to our customer</p>
+    <center>
+    <img src="https://i.ytimg.com/vi/TlG25RUhkTk/sddefault.jpg">
+    </center>
+  </div>
+  <footer>
+    <p>2025 My Website| All Rights Reserved</p>
+  </footer>
+</body>
+</html>
