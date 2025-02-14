@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color References</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .color-box {
+            padding: 10px;
+            margin: 5px 0;
+            color: white;
+            font-weight: bold;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: #1E90FF;
+        }
+
+        .green {
+            background-color: rgb(34, 139, 34);
+        }
+
+        .rgba {
+            background-color: rgba(255, 99, 71, 0.7);
+            color: black;
+        }
+
+        .hsl {
+            background-color: hsl(240, 100%, 50%);
+        }
+
+        .hsla {
+            background-color: hsla(120, 60%, 70%, 0.6);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Color References</h1>
+    <div class="color-box red">Color Name: Red</div>
+    <div class="color-box blue">HEX Value: #1E90FF</div>
+    <div class="color-box green">RGB Value: rgb(34, 139, 34)</div>
+    <div class="color-box rgba">RGBA Value: rgba(255, 99, 71, 0.7)</div>
+    <div class="color-box hsl">HSL Value: hsl(240, 100%, 50%)</div>
+    <div class="color-box hsla">HSLA Value: hsla(120, 60%, 70%, 0.6)</div>
+
+</body>
+</html>
